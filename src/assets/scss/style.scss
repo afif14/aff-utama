@@ -1,0 +1,242 @@
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "utilities";
+@import "print";
+
+
+@font-face {
+    font-family: Averta;
+    src: url('../../fonts/Averta-Reguler.otf');
+}
+
+body {
+    font-family: Averta;
+    overflow-x: hidden;
+}
+
+.btn-sign-up {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-login {
+    width: 124px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.hero-text {
+    .first-text{
+        color:#9CB7C9;
+        font-size: 14px;
+    }
+    .second-text {
+        font-size: 48px;
+                margin-bottom: 16px;
+    }
+    .third-text{
+        margin-bottom: 36px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .btn-mac{
+        padding: 15px;
+        border-radius: 40px;
+    }
+    .btn-browser{
+        padding: 15px;
+        border-radius: 40px;
+    }
+
+}
+
+.support-section{
+    .image-chat {
+        display: block;
+        margin-right: auto;
+        margin-left: 150px;
+        background: url('../images/chat.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 700px;
+
+    }
+
+    .image-support{
+        p{
+            margin: 0 auto;
+            text-align: center;
+            color: #121F3E;
+            font-size: 14px;
+        }
+        img{
+            margin-top: 30px;
+            display: inline-block;
+            width: 195px;
+            margin: 0 86px;
+        }
+    }
+}
+
+.features {
+    background: #FAFDFF;
+    margin-top: 164px;
+    height: 478px;
+    img{
+        background-size: cover;
+        width: 464px;
+
+        margin: 50px 0 0 0 ;
+    }
+    .features-text{
+        h1{
+            font-size: 32px;
+            font-weight: bold;
+            color: #02304F;
+        }
+        p{
+            color: #9FB5C4;
+        }
+        margin: 120px 120px 0 0;
+    }
+    .btn-features{
+    background: transparent;
+    border-radius: 40px;
+    border: 1px #2F80ED solid;
+    font-weight: bold;
+    padding: 15px;
+    color: #2F80ED;
+    }
+}
+
+.demo {
+    margin-top: 164px;
+    height: 478px;
+    img{
+        background-size: cover;
+        width: 464px;
+
+    }
+    .demo-text{
+        h1{
+            font-size: 32px;
+            font-weight: bold;
+            color: #02304F;
+        }
+        p{
+            color: #9FB5C4;
+        }
+        margin: 60px 120px 0 0;
+    }
+    .btn-demo{
+    width: 186px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 1px #2F80ED solid;
+    padding: 15px;
+
+    }
+}
+
+.testimoni {
+    background: #FAFDFF;
+
+    height: 478px;
+    img{
+        background-size: cover;
+        width: 464px;
+
+        margin: 50px 0 0 0 ;
+    }
+    .testimoni-text{
+        h1{
+            font-size: 32px;
+            font-weight: bold;
+            color: #02304F;
+        }
+        p{
+            color: #9FB5C4;
+        }
+        margin: 120px 120px 0 0;
+    }
+    .btn-testimoni{
+    background: transparent;
+    border-radius: 40px;
+    width: 186px;
+    font-weight: bold;
+    border: 1px #2F80ED solid;
+    padding: 15px;
+    color: #2F80ED;
+    }
+}
+
+.join {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color: #FAFDFF;
+    a{
+        color:#7A99B8;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    h6{
+        font-size: 20px;
+        color: #5C7B9A;
+        font-weight: bold;
+    }
+    p{
+        color: #708FAE;
+    }
+
+    .footer-input{
+        width: 300px;
+        height: 64px;
+        border-radius: 40px;
+        padding-left: 20px;
+        border:1px #EBEBEB solid;
+    }
+}
